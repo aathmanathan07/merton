@@ -1,0 +1,470 @@
+.checkbtn{
+    color:white;
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 4px 5px 1px 5px;
+    display: none;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+
+#check{
+    display: none;
+}
+
+@media (max-width:576px){
+    .navlink {
+        background-color: black;
+        position: absolute;
+        top: 80px;
+        flex-direction: column;
+        display: none;
+        height: 300px;
+        width: 100%;
+    }
+
+    .navlink li{
+        /* background-color: aqua; */
+        height: 24.5;
+        width: 100%;
+        display: flex;
+        /* align-items: flex-start;
+        justify-content: center; */
+        color: white;
+    }
+    .navlink li:hover{
+        background-color:black;
+    }
+    .navlink li a{
+        color: white;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked~.navlink{
+        display: flex;
+    }
+    .herobutton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 30px;
+
+    }
+    
+    .herojumbotron{
+        /* width: 100%; */
+        
+         padding: 10px 10px;
+         
+         font-family: Poppins, sans-serif;
+        
+
+        
+    }
+    .herojumbotron h1{
+        font-size: 17px;
+        
+        padding: 0px 10px;
+        text-align: center;
+    
+    }
+    .herojumbotron p{
+        font-size: 17px;
+        font-family: Poppins, sans-serif;
+        padding: 10px 10px;
+        width: 100%;
+        text-align: center;
+    
+        /* color: white; */
+        
+    }
+    .buttonn{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .herobutton button{
+        padding: 8px 10px;
+        border-radius: 2px;
+        color: white;
+        background-color: #1DA1F2;
+        width: 90%;
+    
+        /* gap: 10px; */
+    
+    
+    }
+    .projectbtn button {
+        padding: 8px 10px;
+        border-radius: 2px;
+    }
+    .markethead h3{
+        padding: 10px 10px;
+        font-size: 18px;
+        color: black;
+    
+    
+    }
+    /* .marketimageBody{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    } */
+    .matketImage{
+        flex-direction: column;
+    }
+    .marketcard {
+        flex-direction: column;
+        display: flex;
+    }
+    .ds{
+         padding:0px  20px; 
+    
+    }
+    .ds h3{
+        font-size: 30px;
+    }
+    .ds p{
+        font-size: 10px;
+        color: #657786
+        ;
+    }
+    .lads h3 {
+        font-size: 30px;
+    }
+    .lads p {
+        font-size: 10px;
+        color: #657786;
+        
+    
+    }
+    .lads{
+         padding: 0px 20px;
+    }
+    .coll{
+         padding: 0 20px; 
+    
+    }
+    .coll h3 {
+        font-size: 30px;
+        
+    }
+    .marketcard{
+        padding: 20px 20px;
+    }
+    .coll p{
+        font-size: 10px;
+        color: #657786;
+    }
+    .servicehead h3{
+        padding: 20px 0;
+        font-size: 30px;
+        font-family: Poppins, sans-serif;;
+    }
+    .servicehead h4{
+        font-size: 17px;
+        font-family: Poppins, sans-serif;;
+        color: #657786;
+        
+    }
+    .servicesBody{
+         /* padding: 20px 20px;  */
+         padding: 0;
+        /* gap: 20px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .servicesContainer{
+        padding: 0;
+    }
+    .servicehead p {
+        font-size: 17px;
+        font-family: Poppins, sans-serif;;
+        color: #657786;
+        
+    }
+    .grapic{
+        padding: 20px 30px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .grapic h3 {
+        padding: 10px 10px;
+        font-size: 24px;
+        
+        
+    }
+    .grapic p{
+        font-size: 15px;
+        color: #657786;
+        padding: 10px 10px;
+        width: 100%;
+    
+    }
+    .grapic button {
+        padding: 8px;
+        border-radius: 3px;
+        box-sizing: 2px solid #657786;
+    
+    }
+    .website{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo img{
+        padding: 10px 10px;
+    }
+    .website{
+        padding: 20px 20px;
+        background-color: white;
+        
+    }
+    .website h3 {
+        padding: 10px 10px;
+         
+        font-size: 24px;
+        
+    }
+    .website p{
+        font-size: 18px;
+        color: #657786;
+        padding: 10px 10px;
+        
+    }
+    .website button{
+        padding: 8px;
+        border-radius: 3px;
+        box-sizing: 2px solid #657786;
+    }
+    .industryhead h5 {
+        /* padding: 10px 10px; */
+
+        padding: 10px 30px;
+        
+        font-size: 30px;
+        color: black;
+        font-family: Poppins, sans-serif;
+        text-align: center;
+    }
+    .industryhead h4{
+        padding: 0px 20px;
+        font-size: 18px;
+        text-align: center;
+        color: #657786;
+    }
+    .industryhead p{
+        font-size: 17px;
+        
+    }
+    .industryhead{
+        padding: 0px;
+        background-color: white;
+        
+    }
+    .industry {
+        padding: 0px 0px;
+
+    }
+    .industlink{
+        padding: 10px 0px;
+    }
+    .industryBody{
+        padding: 0px 0px;
+    }
+    .retail{
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .retailogo{
+        padding: 0px 30px;
+    }
+    .fmcg h4{
+        padding: 0px 0px;
+        font-size: 18px;
+        width: 100%;
+        
+        
+    }
+    .fmcg p{
+        padding: 0px 0px;
+        font-size: 18px;
+        width: 100%;
+        
+    }
+    .fmcg{
+        padding: 0px 10px;
+        
+        
+    }
+    .fmcg h5{
+        padding-right: 10px;
+    }
+    .retailogo{
+        padding: 0px 0px;
+    }
+    .work{
+        padding: 0px 0px;
+    }
+    .workBody{
+        padding: 0px 0px;
+    }
+    .workBody h3{
+        padding: 10px 30px;
+        font-size: 24px;
+        text-align: center;
+
+        
+    }
+    .workBody h4{
+        text-align: center;
+        padding: 10px 30px;
+        font-size: 24px;
+        width: 100%;
+    }
+    .workBody h5{
+        text-align: center;
+        padding: 10px 30px;
+        font-size: 18px;
+        width: 100%;
+
+    }
+    .workBody p{
+        text-align: center;
+        padding: 10px 30px;
+        font-size: 18px;
+        width: 100%;
+    }
+    .workbtn{
+        text-align: center;
+    }
+    .workBody button{
+        font-size: 18px;
+        text-align: center;
+        width: 200px;
+    }
+    .studyContainer{
+        margin-top: 40px;
+        padding: 40px 10px;
+    }
+    .studyhead h3{
+        font-size: 32px;
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .studyhead h4{
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    .studyhead p{
+        font-size: 18px;
+        padding: 0px 10px;
+        color: #657786;
+    }
+    .studyBody {
+        padding: 0px 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .education{
+        padding: 0px 0px;
+
+    }
+    .eduimage img{
+        padding: 0px 0px;
+    }
+    .education h3{
+        font-size: 22px;
+    }  
+    .eucation p{
+        font-size: 17px;
+    }
+    .storiesHeading h3{
+        padding: 0px 0px;
+        font-size: 32px;
+
+    }
+    .storiesBody {
+        padding: 0px 30px; 
+        color: black;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .audi{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        padding: 10px 10px;
+
+    }
+    .audilogo img {
+        padding: 0px 30px;
+        height: 50px;
+
+    }
+    .audi h3{
+         width: 100%; 
+        padding: 0px 30px;
+        font-size: 18px;
+    }
+    .audi2{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .clientsheading h3{
+        padding: 0px 10px;
+        font-size: 32px;
+    }
+    .clientspic{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+        
+    } 
+    .clientlogo {
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutBody {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .market{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .market img{
+        width: 200px;
+    }
+    .mert{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about h4{
+        width: 100%;
+    }   
+    .linksBody{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+
+}

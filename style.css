@@ -1,0 +1,831 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+     /* border: 1px solid red;  */
+} 
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f0f8ff;
+    font-family: "Nunito", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    --primaryColor: #be9c79;
+    --secondaryColor: #660600;
+    --darkColor: #330300;
+    --lightColor: #ff0f00;
+    --regularFont: 1.6rem;
+    --headingFont: 54px;
+    --ffPrimary: "Nunito", sans-serif;
+    --ffSecondary: "Merienda", cursive;
+}
+
+/* Default code Ends here */
+
+/* project standard classes Starts */
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentSpacing {
+    padding: 3rem 0;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+footer{
+    width: 100%;
+    height: auto;
+}   
+.grid-1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dflex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.navlink{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+.logo img{
+    padding-left: 30px;
+}
+.navlink li{
+    list-style: none;
+}
+.navlink a{
+    text-decoration: none;
+    color: black;
+}
+.heroBody{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./assets/images/istockphoto-1348326274-612x612.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    /* padding: 20rem 0 0; */
+    background-position: center center;
+    
+    
+}
+
+.herojumbotron{
+    padding: 10px 150px;
+    padding-top: 90px;
+    font-family: Poppins, sans-serif;
+    padding-bottom: 60px;
+   
+    
+}
+.herojumbotron h1{
+    padding: 10px  5px;
+    font-size: 42px;
+    color:white;
+    
+}
+.herojumbotron p{
+    padding: 15px 0px;
+    font-size: 20px;
+    color: white;
+    width: 50%;
+}
+.herobutton button{
+    padding: 8px 20px;
+    border-radius: 2px;
+    color: white;
+     background-color: #1DA1F2; 
+    
+
+}
+       
+.herojumbotron .buttonn a{
+    text-decoration: none;
+    color: white;
+    
+}
+.herobutton .buttonn :hover{
+   
+   background-color:#657786 ; 
+}
+.buttonn {
+    padding-bottom: px;
+
+}
+.herobutton{
+    display: flex;
+    align-items: center;
+} 
+
+.projectbtn{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+ .herojumbotron .projectbtn button{
+    padding: 8px 10px;
+    border-radius: 2px;
+    color: #687A89;
+    
+    background-color: #aab8c2;
+}
+.projectbtn button a{
+    text-decoration: none;
+    color: #7a7a7a;
+
+}
+.projectbtn button:hover {
+    background-color: #657786;
+}
+.projectbtn button a:hover {
+    color: white;
+}
+.heroBody{
+    padding-bottom: 50px;
+}
+
+.servicesContainer{
+    background-color: #E1E8ED;
+}
+.retail{
+    display: flex;
+}
+.workContainer
+{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./assets/images/work.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto; 
+    
+}
+.work{
+    padding: 20rem 5rem;
+} 
+
+.storiesContainer {
+
+    background-color: #E1E8ED;
+}
+.marketingagency{
+    text-align: center;
+}
+.markethead h3{
+    padding: 20px;
+    font-size: 22px;
+    color: black;
+
+
+}
+
+.marketimageBody{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.matketImage{
+    gap: 20px;
+}
+
+.marketlogo img{
+  width: 200px;
+  
+}
+
+.clientsBody{
+    padding: 40px 0px;
+
+    
+}
+.ds{
+    padding-left: 40px;
+
+}
+.ds h3{
+    font-size: 65px;
+}
+.ds p{
+    font-size: 20px;
+    color: #657786
+    ;
+}
+.lads h3 {
+    font-size: 65px;
+}
+.lads p {
+    font-size: 20px;
+    color: #657786;
+    
+
+}
+.coll{
+    padding: 0 30px;
+
+}
+.coll h3 {
+    font-size: 65px;
+    
+}
+.coll p{
+    font-size: 20px;
+    color: #657786;
+}
+.servicehead{
+    text-align: center;
+}
+.servicehead h3{
+    padding: 20px 0;
+    font-size: 40px;
+    font-family: Poppins, sans-serif;;
+}
+.servicehead h4{
+    font-size: 18px;
+    font-family: Poppins, sans-serif;;
+    color: #657786;
+    
+}
+.servicehead p {
+    font-size: 18px;
+    font-family: Poppins, sans-serif;;
+    color: #657786;
+    
+}
+.servicesContainer{
+    padding: 30px 40px;
+    
+}
+
+.servicehead{
+    padding: 40px;
+}
+.servicesBody{
+    padding: 20px 40px;
+    gap: 20px;
+}
+.grapic{
+    padding: 20px 30px;
+    background-color: white;
+    
+}
+.grapic h3 {
+    padding: 20px 0;
+    font-size: 24px;
+    
+}
+.grapic p{
+    font-size: 18px;
+    color: #657786;
+    padding: 20px 0px;
+
+}
+.grapic button {
+    padding: 8px;
+    border-radius: 3px;
+    box-sizing: 2px solid #657786;
+
+}
+
+.website{
+    padding: 20px 30px;
+    background-color: white;
+    
+}
+.website h3 {
+    padding: 20px 0;
+     
+    font-size: 24px;
+    
+}
+.website p{
+    font-size: 18px;
+    color: #657786;
+    padding: 20px 0px;
+    
+}
+.website button{
+    padding: 8px;
+    border-radius: 3px;
+    box-sizing: 2px solid #657786;
+}
+
+
+.digital{
+    padding: 20px 30px;
+    background-color:white;
+}
+.digital h3 {
+    padding: 20px 0;
+     
+    font-size: 24px;
+    
+} 
+.digital p{
+    font-size: 18px;
+    color: #657786;
+    padding: 20px 0px;
+    
+
+}
+.digital button {
+    padding: 8px;
+    border-radius: 3px;
+    box-sizing: 2px solid #657786;
+}
+.industryhead h5 {
+    padding: 10px 0;
+    font-size: 40px;
+    color: black;
+    font-family: Poppins, sans-serif;;
+}
+.industryhead h4{
+    padding: 10px 0;
+    font-size: 18px;
+}
+.industryhead p{
+    font-size: medium;
+    
+}
+.industryhead{
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+}
+.industlink{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.industlink li{
+    list-style: none;
+    font-size: medium;
+}
+.retail{
+    padding: 0 60px;
+    background-color: #FAFBFC;
+    text-align: left;
+    
+}
+.industryContainer{
+    background-color: white;
+ 
+}
+.industryBody{
+    background-color: white;
+    padding: 0px 50px;
+}
+
+.fmcg{
+    padding-left: 30px;
+    width: 80%;
+}
+.fmcg h5 {
+    
+    font-size: 24px;
+    color: #1DA1F2;
+}
+.fmcg h4{
+    padding: 0px 10px;
+    font-size:18px;
+    color: #AAB8C2;
+    width: 70%;
+}
+.fmcg p{
+    padding:8px 10px;
+    width: 60%;
+    font-size: 18px;
+    color: #7a7a7a
+    ;
+}
+.fmcg button{
+     padding: 8px;
+    border-radius: 3px;
+    box-sizing: 2px solid#1DA1F2;
+    color:blue;
+    font-size: 18px;
+    
+}
+.fmcg button:hover {
+    background-color:#1DA1F2;
+}
+.retail{
+    padding: 100px;
+    padding-left: 250px;
+    
+}
+.workBody {
+    padding-right: 20px;
+    font-family: Poppins, sans-serif;
+}
+.workBody h3{
+    padding: 30px 0px;
+    font-size: 38px;
+    color: white;
+}
+.workBody h4{
+    padding: 40px 10px;
+    font-size: 24px;
+    width: 40%;
+    color: white;
+
+}
+.workBody h5{
+    padding: 20px 8px;
+    font-size: 18px;
+    width: 50%;
+    color: white;
+}
+.workBody p {
+    padding: 20px 8px;
+    font-size: 18px;
+    width: 40%;
+    color: white;
+}
+.workBody button{
+    
+    width: 12%;
+    padding: 10px;
+    border-radius: 6px;
+    box-sizing: 2px solid#1DA1F2;
+    color: white;
+    font-size: 18px;
+    background-color: #1DA1F2;
+}
+.studyContainer{
+    margin-top: 40px;
+    padding: 40px 40px;
+    font-family: Poppins, sans-serif;
+
+}
+.studyhead{
+    text-align: center;
+}
+.studyhead h3{
+    padding: 20px 0;
+    font-size: 40px;
+}
+.studyhead h4{
+    padding: 0px 0px;
+    font-size: 18px;
+    color: #657786;
+}
+.studyhead p{
+   
+    font-size: 18px;
+    color: #657786;
+}
+.studyBody{
+    padding: 40px 40px ;
+    gap: 20px;
+
+}
+.education  h3 {
+    padding: 10px 0px;
+    font-size: 22px;
+    color: black;
+    
+}
+.education h4{
+    padding: 5px 0px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.5)
+    ;
+}
+.education p {
+    padding: 5px 0px;
+    font-size: 17px;
+    color: #1DA1F2;
+}
+.health h3{
+    padding: 10px 0px;
+    font-size: 22px;
+    
+}
+.health h4{
+    padding: 5px 0px;
+    color: rgba(0, 0, 0, 0.5)
+    ;
+    font-size: 17px;
+
+}
+.health p{
+    padding: 5px 0px;
+    font-size: 17px;
+    color: #1DA1F2;
+
+}
+.exproters h3{
+    padding: 10px 0px;
+    font-size: 22px;
+
+}
+.exproters h4{
+    padding: 5px 0px;
+     color: rgba(0, 0, 0, 0.5)
+    ;
+    font-size: 17px;
+
+
+}
+.exproters p{
+    padding: 5px 0px;
+    font-size: 17px;
+    color: #1DA1F2;
+
+}
+.stories{
+    text-align: center;
+}
+.storiesHeading h3{
+    padding: 30px 0px;
+    font-size: 40px;
+    color: black;
+    font-family: Poppins, sans-serif;
+}
+.storiesHeading h4{
+    padding: 8px 0px;
+    font-size: 18px;
+    color: #657786;
+}
+.storiesHeading p {
+    font-size: 18px;
+    color: #657786;
+}
+
+.storiesBody {
+    margin-top: 30px 0px;
+    padding: 30px 50px;
+
+}
+.audi{
+    padding: 0px 50px;
+
+
+}
+.audilogo img {
+    
+    width: 20%;
+    padding-left: 30px;
+}
+.audi h3{
+    
+    padding: 40px 0px;
+    width: 80%;
+    font-size: 16px;
+    color: #687A89;
+      
+    
+}
+.audi h4{
+
+    font-size: 16px;
+    text-align: center;
+    padding-left: 20px;
+   
+    
+}
+.audi p{
+    font-size: 16px;
+    text-align: center;
+    color: #687A89;
+}
+.audi2{
+    padding: 0px 50px;
+}
+.storiesContainer{
+    padding-bottom: 40px;
+}
+.clientsContainer{
+    background-color: white;
+}
+.clients{
+    text-align: center;
+}
+.clientsheading h3 {
+    padding: 15px 0px;
+    font-size: 40px;
+    color: black;
+}
+.clientsheading h4 {
+    font-size: 18px;
+    color: #6582A1;
+
+}
+.clientspic {
+    padding: 30px 0px;
+}
+.clientlogo {
+    display: flex;
+    justify-content: space-around;
+}
+.aboutcontainer{
+    padding: 30px 0px;
+    background-color: #657786;
+    padding-bottom: 10px;
+}
+
+.mert{
+    padding-left: 60px;
+    
+}
+.mert h3{
+    padding-top: 20px 0px;
+    color: white;
+    font-size: 18px;
+}
+.mert h5{
+    width: 50%;
+    font-size: 18px;
+    color: #AAB8C2;
+
+}
+.mert h4{
+    font-size: 18px;
+    width: 50%;
+    color: white;
+}
+.market h3{
+    font-size: 24px;
+    color: #AAB8C2;
+}
+.about h3{
+    font-size: 18px;
+    color: #AAB8C2;
+
+}
+.about h4{
+    padding: 20px 0px;
+    width: 60%;
+    color: #AAB8C2;
+    font-size: 18px;
+
+    
+}
+
+.about p{
+    font-size: 18px;
+    color: white;
+}
+    
+
+
+.linksContainer{
+    background-color: #657786;
+
+}
+
+.industry{
+    
+    padding: 0px 60px;
+    
+}
+.industry h3{
+    font-size: 24px;
+    color: #AAB8C2;
+    padding: 10px 0px;
+    
+} 
+.industry p{
+    font-size: 18px;
+    color: #AAB8C2;
+
+}
+.marketing h3{
+    font-size: 24px;
+    color: #AAB8C2;
+    padding: 10px 0px;
+    
+
+}
+.abouticon i {
+
+    color: #aab8c2;
+    font-size: 25px;
+    padding: 12px;
+    
+
+}
+.marketing p{
+    font-size: 18px;
+    color: #AAB8C2;
+
+
+}
+.subsscribe h3{
+    font-size: 24px;
+    color: #AAB8C2;
+
+}
+.sub button{
+    padding-right: 40px;
+    border-radius: 3px;
+    width: 30%;
+    
+
+    
+}
+.sub {
+    display: flex;
+    flex-direction: column;
+}
+.subcribe{
+    padding: 30px 0px;
+
+}
+.subcribe button{
+    background-color: #1DA1F2;
+    width: 50%;
+    padding: 5px; 
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+
+    
+}
+.subsscribe button a{
+    color: white;
+    text-decoration: none;
+}
+.copyrightss{
+    text-align: center;
+}
+.copyrightsBody h3{
+    font-size: 18px;
+    color: #AAB8C2;
+}
+.copyrightsContainer{
+    padding: 40px 0px;
+    background-color: #596B7A;
+}
+
+
+
