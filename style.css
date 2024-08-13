@@ -238,7 +238,7 @@ footer{
 .marketingagency{
     text-align: center;
 }
-.markethead h3{
+.marketheadBody h3{
     padding: 20px;
     font-size: 22px;
     color: black;
@@ -299,21 +299,18 @@ footer{
     font-size: 20px;
     color: #657786;
 }
-.servicehead{
-    text-align: center;
-}
-.servicehead h3{
+.serviceheadBody h3{
     padding: 20px 0;
     font-size: 40px;
     font-family: Poppins, sans-serif;;
 }
-.servicehead h4{
+.serviceheadBody h4{
     font-size: 18px;
     font-family: Poppins, sans-serif;;
     color: #657786;
     
 }
-.servicehead p {
+.serviceheadBody p {
     font-size: 18px;
     font-family: Poppins, sans-serif;;
     color: #657786;
@@ -322,6 +319,9 @@ footer{
 .servicesContainer{
     padding: 30px 40px;
     
+}
+.serviceheadBody{
+    text-align: center;
 }
 
 .servicehead{
@@ -400,21 +400,21 @@ footer{
     border-radius: 3px;
     box-sizing: 2px solid #657786;
 }
-.industryhead h5 {
+.industryheadBody h5 {
     padding: 10px 0;
     font-size: 40px;
     color: black;
     font-family: Poppins, sans-serif;;
 }
-.industryhead h4{
+.industryheadBody h4{
     padding: 10px 0;
     font-size: 18px;
 }
-.industryhead p{
+.industryheadBody p{
     font-size: medium;
     
 }
-.industryhead{
+.industryheadBody{
     padding: 30px;
     background-color: white;
     text-align: center;
@@ -526,19 +526,19 @@ footer{
     font-family: Poppins, sans-serif;
 
 }
-.studyhead{
+.studyheadBody{
     text-align: center;
 }
-.studyhead h3{
+.studyheadBody h3{
     padding: 20px 0;
     font-size: 40px;
 }
-.studyhead h4{
+.studyheadBody h4{
     padding: 0px 0px;
     font-size: 18px;
     color: #657786;
 }
-.studyhead p{
+.studyheadBody p{
    
     font-size: 18px;
     color: #657786;
@@ -605,18 +605,18 @@ footer{
 .stories{
     text-align: center;
 }
-.storiesHeading h3{
+.storiesHeadingBody h3{
     padding: 30px 0px;
     font-size: 40px;
     color: black;
     font-family: Poppins, sans-serif;
 }
-.storiesHeading h4{
+.storiesHeadingBody h4{
     padding: 8px 0px;
     font-size: 18px;
     color: #657786;
 }
-.storiesHeading p {
+.storiesHeadingBody p {
     font-size: 18px;
     color: #657786;
 }
